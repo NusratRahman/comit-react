@@ -1,0 +1,31 @@
+header {
+    text-align: center;
+    font-family: verdana;
+}
+
+header h2 {
+    background-color: greenyellow;
+}
+
+nav a {
+    display: inline-block;            
+}
+
+main h1 {
+    color: blue;
+    text: 20px;
+}
+
+.font {
+    font-family:georgia; 
+    font-size:16px;
+}
+
+.spacing {
+    margin: 5px;
+    padding: 10px;
+}
+
+.msg {
+    display: flex;
+}
