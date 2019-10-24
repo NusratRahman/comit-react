@@ -1,21 +1,38 @@
 <html>
+
   <head>
+    <title>Pseudo Classes</title>
     <style>
-      div p:nth-child(2) {
-        background: blue;
+      ul li:nth-child(2):hover {
+        background: red;
+        color: white;
+      }
+      ul li:nth-child(1) {
+        font-size: 32px;
+      }
+      ul li:nth-child(3n) {
+        color: green;
+      }
+      ul li:last-child {
+        text-transform: uppercase;
       }
     </style>
   </head>
-  <body>
-    <div>
-      <p>I will be targeted</p>
-      <p>But I will not</p>
-    </div>
 
-    <div>
-      <div>Not a p tag so i won't be targeted</div>
-      <p>I'm the first p tag in the div so I'm targeted!</p>
-      <p>But I still am not</p>
-    </div>
+  <body>
+    <h1>Funky List Items</h1>
+    <ul>
+      <li>one</li>
+      <li>two</li>
+      <li>three</li>
+      <li>four</li>
+      <li>five</li>
+      <li>six</li>
+      <li>seven</li>
+      <li>eight</li>
+      <li>nine</li>
+      <li>ten</li>
+    </ul>    
   </body>
+  
 </html>
