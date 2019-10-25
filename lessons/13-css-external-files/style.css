@@ -1,0 +1,15 @@
+header {
+    text-align: center;
+}
+
+header nav a {
+    color: red;
+}
+
+p {
+    font-size: 18px;
+}
+
+.currentLink {
+    color: #00aced
+}
