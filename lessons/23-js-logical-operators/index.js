@@ -1,3 +1,4 @@
+
 let time = prompt ("Enter the current hour (0 to 23): ", 0);
 
 if (time<0 || time > 23) {
