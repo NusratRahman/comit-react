@@ -11,11 +11,7 @@ function showEvenNumbers (lowerLimit, upperLimit) {
 showEvenNumbers (0, 100);
 
 function showUser (name, age, phoneNumber, street, postalCode, isMarried) {
-    console.log (` Name: ${name} 
-               \n Age: ${age}
-               \n Phone Number: ${phoneNumber}
-               \n Street: ${street}
-               \n Postal Code: ${postalCode}`);
+    console.log (` Name: ${name} \n Age: ${age} \n Phone Number: ${phoneNumber} \n Street: ${street} \n Postal Code: ${postalCode}`);
 
     if (isMarried === "married") 
         console.log (` Is Married: Yes`);
