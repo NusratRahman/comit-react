@@ -1,0 +1,137 @@
+* {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+nav a,
+nav img {
+    margin-right: 15px;
+}
+     
+nav a {
+    color: #333;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 300px;
+    margin-top: 100px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 30px;
+}
+
+.input input {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 450px;
+    border: 0;
+    height: auto;
+}
+
+.input img {
+    width: 20px;
+    height: auto;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px ;
+    width: 350px;
+    height: 40px;
+    padding-left: 70px;
+}
+
+.button button {
+    background: rgb(245, 236, 236);
+    color: rgb(77, 72, 72);
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 0;
+    width: 200px;
+    font-size: 15px;
+}
+
+p {
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+p a {
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+footer div {
+    border-top: 0.5px solid lightgrey;   
+}
+
+.footer-top {
+    background: rgb(245, 236, 236);
+    color: rgb(77, 72, 72);
+    height: 40px;
+    padding-left: 20px;
+    padding-top: 15px;    
+    
+}
+
+.footer-bottom {
+    background: rgb(245, 236, 236);
+    height: 40px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.footer-bottom a {
+    text-decoration: none;
+    color: rgb(77, 72, 72);
+    margin-right: 18px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.middle-space {
+    margin-left: 770px;
+}
+
+.profile-photo {
+    border-radius: 50%;
+}
